@@ -1,9 +1,9 @@
 import Props from './Props';
-
+import styles from './header.module.css';
 function Header() {
   return (
-    <div>
-      <p> Parti do corpo </p>
+    <div className={styles.Blu}>
+      <p className="Blu"> Parti do corpo </p>
       
       <Props 
         nome = "Rodrigo"

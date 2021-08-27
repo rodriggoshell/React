@@ -1,6 +1,8 @@
+import './style.css';
+
 function Props({nome, cidade, idade,casado}) {
     return (
-      <div>
+      <div className="Teste">
         <p>Nome: {nome}</p>
         <p>Cidade: {cidade}</p>
         <p>Idade: {idade}</p>
